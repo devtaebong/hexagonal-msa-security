@@ -5,5 +5,5 @@ import com.study.netflix.entity.SampleEntity;
 import java.util.List;
 
 public interface SampleCustomRepository {
-    List<SampleEntity> findAll();
+    List<SampleEntity> findAllByName();
 }
